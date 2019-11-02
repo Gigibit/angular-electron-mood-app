@@ -1,0 +1,56 @@
+{
+  "PAGES": {
+      "HOME": {
+        "HOW_DO_YOU_FEEL": "Welcome! How are you feeling today?",
+        "HAPPY": "Happy",
+        "GOOD_MOOD": "In A Good Mood",
+        "INSPIRED": "Inspired",
+        "SAD": "Sad",
+        "ANGRY": "Angry",
+        "AWFUL": "Awful"
+      },
+      "FREE_TIME":{
+        "HOW_DO_YOU_BEEN_UP_FREE_TIME" : "What have you been up to in your free time?"
+      },
+      "TOUGHTS":{
+        "HOW_ARE_YOU" : "How are you feeling right now?",
+        "ACTIVE" : "active",
+        "FOCUSED":"focused",
+        "JOYFUL": "joyful",
+        "INTERESTED": "interested",
+        "SERENE": "serene",
+        "HOPEFUL": "hopeful",
+        "GLAD": "glad",
+        "SURPRISED": "surprised",
+        "CHEERFUL": "cheerful",
+        "CONFIDENT": "confident",
+        "RELIEVED": "relieved",
+        "IN_LOVE": "in love",
+        "ENTHUSIASTIC": "enthusiastic",
+        "RELAXED": "relaxed",
+        "SATISFACTED": "satisfacted",
+        "PROUD": "proud",
+        "SAD": "sad",
+        "ASHAMED": "ashmed",
+        "ANXIOUS": "anxious",
+        "AFRAID": "afraid",
+        "DEPRESSED": "depressed",
+        "LONELY": "lonely",
+        "DELUDED": "deluded",
+        "ANNOYED": "annoyed",
+        "COLD": "cold",
+        "CONFUSED": "confused",
+        "PASSIVE": "passive",
+        "PREOCCUPIED": "preoccupied",
+        "INSECURE": "insecure",
+        "REPRESSED" : "repressed",
+        "FRURSTRATED":"frustrated",
+        "DISGUSTED": "disgusted",
+        "GUILTY": "guilty",
+        "DISCOURAGED": "discoraged",
+        "YOUR_TOUGHTS": "Your thoughts (visible only to you)",
+        "WRITE_TO_REMEMBER" : "Write down something you want to remember…"
+
+      }
+  }
+}

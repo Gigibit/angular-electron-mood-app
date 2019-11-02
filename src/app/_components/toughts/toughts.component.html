@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="corus-dot"></div>
+    <h1 class="title">
+        {{ 'PAGES.TOUGHTS.HOW_ARE_YOU' | translate }}
+    </h1>
+    <div class="toughts-wrapper row">
+        <div *ngFor="let tought of toughts" class="tought col-md-2" [class.happy]="tought.isHappy">
+            <div>
+                {{ tought.i18nKey | translate}}
+            </div>
+        </div>
+    </div>
+    <div class="current-tought-form form-group shadow-textarea">
+        <div class="corus-dot"></div>
+        <label for="current-tought">{{'PAGES.TOUGHTS.YOUR_TOUGHTS' | translate }}</label>
+        <textarea id="current-tought" placeholder="{{'PAGES.TOUGHTS.WRITE_TO_REMEMBER' | translate }}" class="form-control z-depth-1" [(ngModel)]="currentTought" ></textarea> 
+    </div>    
+    <button (click)="submit()" type="button" class="align-self-end btn btn-lg btn-block btn-primary submit-button btn-sm waves-effect waves-light">Save</button>
+</div>

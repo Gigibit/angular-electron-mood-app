@@ -1,0 +1,30 @@
+.container {
+    height: 100%;
+  
+    .title {
+      margin: 0;
+      text-align: center;
+      font-size: 15px;
+      padding: 18px 20px;
+    }
+    #current-tought{
+        resize: none;
+    }
+    .current-tought-form{
+        margin-top:30px;
+    }
+    label[for="current-tought"]{
+        text-align: center;
+        width: 100%;
+    }
+    .tought{
+        border: 2px solid lightgrey;
+        margin: 5px;
+        border-radius: 20px;
+        text-align: center;
+        text-transform: capitalize;
+    }
+    .tought.happy{
+        border: 2px solid greenyellow;
+    }
+}

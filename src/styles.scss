@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+html, body {
+  margin: 0;
+  padding: 0;
+
+  height: 100%;
+}
+.corus-dot{
+  background: url(./assets/imgs/corus-dot.png) no-repeat;
+  background-size: 100%;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+}
+.header{
+  background: url(./assets/imgs/header.png) no-repeat fixed;
+  height: 70px;
+  width: 100%;
+  background-size: 100%;
+}
